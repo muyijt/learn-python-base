@@ -258,8 +258,8 @@ tuple(表达式  for x in 可迭代对象  if 过滤条件)
 - 内置模块: python自带，无需安装。如:os、sys、math
 - 第三方模块: 来自PyPI，需要pip安装
 - pip安装
-  - 基础: pip install 模块名
-  - 指定版本: pip install 模块名==版本号
+  - 基础: pip install 模块名 -i https://pypi.tuna.tsinghua.edu.cn/simple
+  - 指定版本: pip install 模块名==版本号 -i https://pypi.tuna.tsinghua.edu.cn/simple
 - if __name__ == "__main__":
   - 文件中的测试代码都要放在上面那段代码作用域之中。
   - 导入一个模块时，如果模块中测试代码没放在上面那段代码作用域中，在导入时会自动执行模块的测试代码
