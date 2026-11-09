@@ -263,6 +263,11 @@ tuple(表达式  for x in 可迭代对象  if 过滤条件)
 - if __name__ == "__main__":
   - 文件中的测试代码都要放在上面那段代码作用域之中。
   - 导入一个模块时，如果模块中测试代码没放在上面那段代码作用域中，在导入时会自动执行模块的测试代码
+- 常用模块
+  - pip install requests -i https://pypi.tuna.tsinghua.edu.cn/simple
+  - pip install retrying -i https://pypi.tuna.tsinghua.edu.cn/simple
+  - pip install lxml -i https://pypi.tuna.tsinghua.edu.cn/simple
+  - pip install bs4 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 ## 异常
 - 自定义异常类
